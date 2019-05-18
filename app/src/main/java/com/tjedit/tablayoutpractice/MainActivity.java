@@ -25,6 +25,16 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void seuptValues() {
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("홈").setIcon(R.mipmap.ic_launcher));
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("채팅목록"));
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("검색"));
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("더보기"));
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("더보기"));
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("더보기"));
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("더보기"));
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("더보기"));
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("더보기"));
+        act.tabLayout.addTab(act.tabLayout.newTab().setText("더보기"));
 
     }
 

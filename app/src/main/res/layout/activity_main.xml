@@ -10,13 +10,15 @@
         tools:context=".MainActivity">
 
         <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:tabGravity="center"
-            app:tabIndicator="#FFFFFF"
-            app:tabMode="fixed"
-            app:tabSelectedTextColor="#FFFFFF"
-            app:tabTextColor="#000000">
+            app:tabGravity="fill"
+            app:tabTextColor="#000000"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="#FF0000"
+            app:tabIndicatorColor="#0000FF"
+            app:tabIndicatorHeight="5dp">
 
 
         </android.support.design.widget.TabLayout>
